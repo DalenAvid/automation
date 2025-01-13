@@ -85,34 +85,34 @@
 
     .div1 {
         grid-area: 1 / 1 / 3 / 3;
-        background: url('./images/Mask Group.png') no-repeat center center/cover;
+        background: url(./images/MaskGroup.png) no-repeat center center/cover;
 
         max-width: 100%;
         text-align: right;
         @media screen and (max-width: 480px) {
-            max-width: 90%;
+            max-width: 100%;
             
         }
     }
 
     .div2 {
         grid-area: 3 / 1 / 5 / 2;
-        background: url('./images/Mask Group1.png') no-repeat center center/cover;
+        background: url(./images/MaskGroup1.png) no-repeat center center/cover;
 
         text-align: left;
         @media screen and (max-width: 480px) {
-            max-width: 90%;
+            max-width: 100%;
             
         }
     }
 
     .div3 {
         grid-area: 3 / 2 / 5 / 3;
-        background: url('./images/Mask Group2.png') no-repeat center center/cover;
+        background: url(./images/MaskGroup2.png) no-repeat center center/cover;
 
         text-align: left;
         @media screen and (max-width: 480px) {
-            max-width: 90%;
+            max-width: 100%;
             
         }
     }
