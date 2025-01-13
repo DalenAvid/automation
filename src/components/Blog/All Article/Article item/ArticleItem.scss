@@ -1,0 +1,50 @@
+.article-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    @media screen and (max-width: 480px) {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        width: 100%;
+       
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        width: 70%;
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        @media screen and (max-width: 768px) {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            &__img img {
+                width: 90%;
+            }
+
+        }
+
+    }
+
+}

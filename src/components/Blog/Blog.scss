@@ -1,0 +1,59 @@
+.blog {
+    background: url('./images/Mask.png') no-repeat center center/cover;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    h2{
+        font-size: 36px;
+        margin-bottom: 20px;
+        @media screen and (max-width:480px){
+           font-size: 24px;
+          
+        }
+    }
+    p{
+        font-size: 16px;
+        @media screen and (max-width:480px){
+           font-size: 14px;
+          
+        }
+    }
+    @media screen and (max-width:480px){
+      padding: 30px 20px;
+      
+    }
+
+    
+}
+.blog__search {
+    position: relative; /* Для позиціонування псевдоелемента */
+  
+    input {
+      padding: 20px 20px 20px 50px; /* Зробити місце для іконки */
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      margin: 20px 0;
+      background-color: #ececec;
+    }
+  @media screen and (max-width:480px){
+    padding: 20px;
+    input{
+      padding: 10px 10px 10px 30px;
+    }
+    h2,p{
+      font-size: 18px;
+    }
+    
+  }
+    // &:before {
+    //   content: url('./images/search.png');
+    //   position: absolute;
+    //   left: 270px;
+    //   top: 50%;
+    //   transform: translateY(-50%); /* Центрування іконки вертикально */
+    //   width: 20px;
+    //   height: 20px;
+    //   pointer-events: none; /* Щоб іконка не блокувала введення тексту */
+    // }
+  }

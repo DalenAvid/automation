@@ -1,0 +1,24 @@
+.contact {
+    background: url('./images/Mask.png') no-repeat center center/cover;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+
+    h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    img {
+        max-width: 100%;
+    }
+}

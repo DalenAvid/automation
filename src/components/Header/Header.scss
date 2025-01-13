@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #fff;
+    position: relative;
+
+    &__logo {
+        img {
+            height: 40px;
+        }
+    }
+
+    &__burger {
+        background: none;
+        border: none;
+        color: #081fce;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    &__menu {
+        position: absolute;
+        top: -200px; /* Початкове приховане положення */
+        left: 0;
+        width: 100%;
+        background-color: rgba(90, 153, 208, 0.813); /* Напівпрозорий колір */
+
+        transform: translateY(0);
+        transition: top 0.3s ease-in-out;
+        padding: 20px 0;
+        
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+
+            li {
+                margin: 10px 0;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 18px;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        &--open {
+            top: 60px; /* Показується нижче заголовка */
+        }
+    }
+}
